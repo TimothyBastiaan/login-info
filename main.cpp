@@ -24,9 +24,9 @@ int main()
                 break;
         case 2:  success=login.verify();
                  if(success==true)
-                 {cout<<"login berhasil";}
+                 {cout<<"login berhasil"<<endl;}
                  else
-                 {cout<<"login tidak berhasil";
+                 {cout<<"login tidak berhasil"<<endl;
                  goto start;}
                  break;
         case 3: break;
